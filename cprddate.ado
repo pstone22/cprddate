@@ -1,4 +1,4 @@
-/* Program for converting dates in CPRD files - ELS & PWS 2020
+/* Program for converting dates in CPRD files - ELA & PWS 2020
 
 Syntax:
 	cprddate {list variables to convert}
