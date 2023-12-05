@@ -1,0 +1,8 @@
+v 1.0
+d cprddate: a Stata command to quickly format date variables provided by CPRD.
+d
+d Philip Stone
+d
+d https://github.com/pstone22/cprddate
+d
+p cprddate

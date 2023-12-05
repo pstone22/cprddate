@@ -1,0 +1,7 @@
+v 1.0
+d {bf:cprddate}: a Stata command to quickly format date variables provided by CPRD.
+d
+d Available from: https://github.com/pstone22/cprddate
+d
+f cprddate.ado
+f cprddate.sthlp
