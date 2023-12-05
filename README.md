@@ -1,8 +1,8 @@
 # `cprddate`: a Stata command to quickly format date variables provided by CPRD
 
 ## Notes
-- `cprddate` assumes all dates are in DMY format
-  - day followed by month followed by year
+- `cprddate` assumes all dates are in **DMY** format
+  - *day* followed by *month* followed by *year*
 
 ## Installation
 `cprddate` can be installed by copying and pasting the following command in to Stata:
