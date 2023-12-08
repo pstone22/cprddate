@@ -12,7 +12,7 @@ net install cprddate, from("https://raw.githubusercontent.com/pstone22/cprddate/
 
 ## Syntax
 ```stata
-cprddate cprddate varlist
+cprddate varlist
 ```
 ### Example
 ```stata
