@@ -26,14 +26,14 @@
 {title:Description}
 
 {pstd}
-{cmd:cprddate} converts the string variables in {varlist} to Stata datetime variables.
+{cmd:cprddate} converts the {it:string} variables in {varlist} to Stata datetime variables.
 
 
 {marker remarks}{...}
 {title:Remarks}
 
 {pstd}
-{cmd:cprddate} will only work with dates in DMY format.
+{cmd:cprddate} will only work with {it:string} variables that have dates in DMY format.
 
 
 {marker examples}{...}
