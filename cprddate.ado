@@ -1,4 +1,6 @@
-/* Program for converting dates in CPRD files - ELA & PWS 2020
+/* Program for converting dates in CPRD files
+
+INCLUDES AN OPTIONAL FORMAT OPTION FOR DATES THAT ARE NOT IN DMY FORMAT
 
 Syntax:
 	cprddate {list variables to convert}
@@ -9,14 +11,19 @@ Syntax:
 capture program drop cprddate
 program define cprddate
 	version 13.0
-	syntax varlist
+	syntax varlist [, FORMAT(string)]
+	
+	if "`format'" == "" {
+		
+		local format "DMY"
+	}
 	
 	foreach var of local varlist {		
 		
 		tempvar newdate
 		
 		//generate temporary date variable from string date
-		gen `newdate' = date(`var', "DMY")
+		gen `newdate' = date(`var', "`format'")
 		
 		//transfer label information to new temporary date variable
 		_crcslbl `newdate' `var'
