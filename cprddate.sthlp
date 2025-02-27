@@ -18,9 +18,8 @@
 {title:Syntax}
 
 {p 8 17 2}
-{cmdab:cprddate}
-{varlist}{cmd:,}
-{opth format(string)}
+{cmdab:cprddate} {varlist}
+[{cmd:,} {opth format(string)}]
 
 {synoptset 20 tabbed}{...}
 {synopthdr}
